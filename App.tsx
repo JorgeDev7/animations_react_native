@@ -5,15 +5,17 @@ import {
   Text,
   View,
 } from 'react-native';
+import Animation3 from './src/components/Animation3';
 // import Animation1 from './src/components/Animation1';
-import Animation2 from './src/components/Animation2';
+// import Animation2 from './src/components/Animation2';
 
 function App(): React.JSX.Element {
   return (
     <SafeAreaView>
       <View style={styles.content}>
         {/* <Animation1 /> */}
-        <Animation2 />
+        {/* <Animation2 /> */}
+        <Animation3 />
       </View>
     </SafeAreaView>
   );
