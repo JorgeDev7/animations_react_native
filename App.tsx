@@ -5,11 +5,12 @@ import {
   Text,
   View,
 } from 'react-native';
-import Animation5 from './src/components/Animation5';
 // import Animation1 from './src/components/Animation1';
 // import Animation2 from './src/components/Animation2';
 // import Animation3 from './src/components/Animation3';
 // import Animation4 from './src/components/Animation4';
+// import Animation5 from './src/components/Animation5';
+// import Animation6 from './src/components/Animation6';
 
 function App(): React.JSX.Element {
   return (
@@ -19,7 +20,8 @@ function App(): React.JSX.Element {
         {/* <Animation2 /> */}
         {/* <Animation3 /> */}
         {/* <Animation4 /> */}
-        <Animation5 />
+        {/* <Animation5 /> */}
+        {/* <Animation6 /> */}
       </View>
     </SafeAreaView>
   );
