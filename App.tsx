@@ -11,6 +11,7 @@ import {
 // import Animation4 from './src/components/Animation4';
 // import Animation5 from './src/components/Animation5';
 // import Animation6 from './src/components/Animation6';
+import Animation7 from './src/components/Animation7';
 
 function App(): React.JSX.Element {
   return (
@@ -22,6 +23,7 @@ function App(): React.JSX.Element {
         {/* <Animation4 /> */}
         {/* <Animation5 /> */}
         {/* <Animation6 /> */}
+        <Animation7 />
       </View>
     </SafeAreaView>
   );
